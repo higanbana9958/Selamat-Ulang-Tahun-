@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+  font-size: 24px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.title1 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; animation: fadeIn 2s forwards; }
+.title2 { font-family: "Futura", sans-serif; font-size: 36px; color: #F8F8FF; animation: fadeIn 2s forwards; }
+.title3 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; animation: fadeIn 2s forwards; }
+.title4 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; animation: fadeIn 2s forwards; }
+.title5 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; animation: fadeIn 2s forwards; }
+.title6 { font-family: "Futura", sans-serif; font-size: 36px; color: #333; animation: fadeIn 2s forwards; }
+.title7 { font-family: "Futura", sans-serif; font-size: 36px; color: #F8F8FF; animation: fadeIn 2s forwards; }
+
+.content1 { font-family: "Garamond", serif; font-size: 20px; color: #333; animation: fadeIn 2s forwards; }
+.content2 { font-family: "Garamond", serif; font-size: 20px; color: #F8F8FF; animation: fadeIn 2s forwards; }
+.content3 { font-family: "Garamond", serif; font-size: 20px; color: #333; animation: fadeIn 2s forwards; }
+.content4 { font-family: "Garamond", serif; font-size: 20px; color: #333; animation: fadeIn 2s forwards; }
+.content5 { font-family: "Garamond", serif; font-size: 20px; color: #333; animation: fadeIn 2s forwards; }
+.content6 { font-family: "Garamond", serif; font-size: 20px; color: #333; animation: fadeIn 2s forwards; }
+.content7 { font-family: "Garamond", serif; font-size: 20px; color: #F8F8FF; animation: fadeIn 2s forwards; }
+}
+
+@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+
+#stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
